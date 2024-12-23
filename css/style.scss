@@ -1,0 +1,26 @@
+$main-color:#e67e22;
+$secondary-color:#ecf0f1;
+$primary-btn:#2ecc71;
+$danger-btn:red;
+*{
+    margin: 0;
+}
+div{
+    h1{
+        font-size: 50px;
+        background-color: $main-color;
+    }
+}
+.btn{
+    border: 0px;
+    padding: 2% 4%;
+    color: var($main-color);
+}
+.read-more{
+    @extend .btn;
+    background-color: $primary-btn;
+}
+.read-less{
+    @extend .btn;
+    background-color: $danger-btn;  
+}

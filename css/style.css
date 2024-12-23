@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+}
+
+div h1 {
+  font-size: 50px;
+  background-color: #e67e22;
+}
+
+.btn, .read-less, .read-more {
+  border: 0px;
+  padding: 2% 4%;
+  color: var(#e67e22);
+}
+
+.read-more {
+  background-color: #2ecc71;
+}
+
+.read-less {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */
